@@ -3,12 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"scripts": {
-  "dev": "vite",
-"build": "npx vite build",
-  "preview": "vite preview"
-}
-,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && npx vite build",
+    "postinstall": "chmod -R +x node_modules/.bin/* 2>/dev/null || true",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "preview": "vite preview"
+  },
   "dependencies": {
     "@convex-dev/auth": "^0.0.90",
     "@faker-js/faker": "^10.1.0",
