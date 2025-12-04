@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mussifly.netlify.app/sitemap.xml
+Sitemap: https://mussifly.vercel.app/sitemap.xml
