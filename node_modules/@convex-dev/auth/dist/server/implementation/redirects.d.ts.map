@@ -1,0 +1,1 @@
+{"version":3,"file":"redirects.d.ts","sourceRoot":"","sources":["../../../src/server/implementation/redirects.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,4BAA4B,EAAE,MAAM,aAAa,CAAC;AAG3D,wBAAsB,mBAAmB,CACvC,MAAM,EAAE,4BAA4B,EACpC,MAAM,EAAE;IAAE,UAAU,EAAE,OAAO,CAAA;CAAE,mBAahC;AAoBD,wBAAgB,iBAAiB,CAC/B,WAAW,EAAE,MAAM,EACnB,KAAK,EAAE,MAAM,EACb,KAAK,EAAE,MAAM,UAYd"}

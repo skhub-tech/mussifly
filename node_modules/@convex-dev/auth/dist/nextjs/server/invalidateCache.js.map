@@ -1,0 +1,1 @@
+{"version":3,"file":"invalidateCache.js","sourceRoot":"","sources":["../../../src/nextjs/server/invalidateCache.ts"],"names":[],"mappings":"AAAA,YAAY,CAAC;AAEb,OAAO,EAAE,OAAO,EAAE,MAAM,cAAc,CAAC;AAEvC,MAAM,CAAC,KAAK,UAAU,eAAe;IACnC,6DAA6D;IAC7D,2BAA2B;IAC3B,CAAC,MAAM,OAAO,EAAE,CAAC,CAAC,MAAM,CACtB,+CAA+C,IAAI,CAAC,GAAG,EAAE,EAAE,CAC5D,CAAC;IACF,OAAO,IAAI,CAAC;AACd,CAAC"}

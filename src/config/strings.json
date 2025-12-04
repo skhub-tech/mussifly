@@ -1,0 +1,90 @@
+<<<<<<< HEAD
+{
+    "app": {
+        "name": "Musifly",
+        "tagline": "Feel The Music, Beyond Limits."
+    },
+    "downloads": {
+        "arm64": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm64.apk",
+        "arm32": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm32.apk"
+    },
+    "stats": {
+        "downloads": "1M+",
+        "rating": "4.9/5",
+        "songs": "Unlimited"
+    },
+    "social": {
+        "twitter": "https://twitter.com/musifly",
+        "instagram": "https://instagram.com/musifly",
+        "facebook": "https://facebook.com/musifly",
+        "github": "https://github.com/your-repo/musifly",
+        "telegram": "https://t.me/your_telegram_channel"
+    },
+    "footer": {
+        "description": "The ultimate AI-powered music player for Android. Experience music like never before with advanced audio engineering and stunning design.",
+        "menus": {
+            "product": {
+                "features": "#features",
+                "download": "#download",
+                "premium": "#premium",
+                "changelog": "#changelog"
+            },
+            "legal": {
+                "privacy": "#privacy",
+                "terms": "#terms",
+                "cookies": "#cookies",
+                "contact": "#contact"
+            }
+        }
+    },
+    "screenshots": {
+        "left": "/screenshot-left.jpg",
+        "right": "/screenshot-right.jpg",
+        "center": "/screenshot-center.jpg"
+    }
+=======
+{
+    "app": {
+        "name": "Musifly",
+        "tagline": "Feel The Music, Beyond Limits."
+    },
+    "downloads": {
+        "arm64": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm64.apk",
+        "arm32": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm32.apk"
+    },
+    "stats": {
+        "downloads": "1M+",
+        "rating": "4.9/5",
+        "songs": "Unlimited"
+    },
+    "social": {
+        "twitter": "https://twitter.com/musifly",
+        "instagram": "https://instagram.com/musifly",
+        "facebook": "https://facebook.com/musifly",
+        "github": "https://github.com/your-repo/musifly",
+        "telegram": "https://t.me/your_telegram_channel"
+    },
+    "footer": {
+        "description": "The ultimate AI-powered music player for Android. Experience music like never before with advanced audio engineering and stunning design.",
+        "menus": {
+            "product": {
+                "features": "#features",
+                "download": "#download",
+                "premium": "#premium",
+                "changelog": "#changelog"
+            },
+            "legal": {
+                "privacy": "#privacy",
+                "terms": "#terms",
+                "cookies": "#cookies",
+                "contact": "#contact"
+            }
+        }
+    },
+    "screenshots": {
+        "left": "/screenshot-left.jpg",
+        "right": "/screenshot-right.jpg",
+        "center": "/screenshot-center.jpg"
+    }
+>>>>>>> 3c0bdd2eae304b2a15a2ff0ab5a6a4d84aa1b791
+}

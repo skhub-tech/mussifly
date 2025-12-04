@@ -1,0 +1,1 @@
+{"version":3,"file":"Phone.d.ts","sourceRoot":"","sources":["../../src/providers/Phone.ts"],"names":[],"mappings":"AAAA;;;;;;;;;GASG;AAEH,OAAO,EAAE,gBAAgB,EAAE,MAAM,eAAe,CAAC;AACjD,OAAO,EAAE,WAAW,EAAE,eAAe,EAAE,MAAM,oBAAoB,CAAC;AAElE;;;;;;;GAOG;AACH,wBAAgB,KAAK,CAAC,SAAS,SAAS,gBAAgB,EACtD,MAAM,EAAE,eAAe,GAAG,IAAI,CAAC,WAAW,EAAE,yBAAyB,CAAC,GACrE,WAAW,CAAC,SAAS,CAAC,CAqBxB"}
