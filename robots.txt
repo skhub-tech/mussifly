@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
 
+# Block future unwanted paths (safe for security & SEO)
+Disallow: /admin/
+Disallow: /private/
+Disallow: /config/
+Disallow: /temp/
+Disallow: /api/
+
+# Sitemap so Google can crawl fast
 Sitemap: https://mussifly.vercel.app/sitemap.xml
