@@ -1,4 +1,7 @@
 {
-    "buildCommand": "npm install && npm run build",
-    "installCommand": "npm install"
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "installCommand": "npm install",
+  "cleanUrls": true
 }
