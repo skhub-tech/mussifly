@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <!-- Main Home Page -->
    <url>
       <loc>https://mussifly.vercel.app/</loc>
+      <lastmod>2025-12-05</lastmod>
       <priority>1.0</priority>
+      <changefreq>daily</changefreq>
+   </url>
+
+   <!-- Future pages — Add when available -->
+   <url>
+      <loc>https://mussifly.vercel.app/download</loc>
+      <lastmod>2025-12-05</lastmod>
+      <priority>0.9</priority>
       <changefreq>weekly</changefreq>
    </url>
+
+   <url>
+      <loc>https://mussifly.vercel.app/privacy-policy</loc>
+      <lastmod>2025-12-05</lastmod>
+      <priority>0.6</priority>
+      <changefreq>monthly</changefreq>
+   </url>
+
 </urlset>
