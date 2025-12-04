@@ -1,11 +1,11 @@
 {
     "app": {
-        "name": "Musifly",
+        "name": "Mussifly",
         "tagline": "Feel The Music, Beyond Limits."
     },
     "downloads": {
-        "arm64": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm64.apk",
-        "arm32": "https://github.com/your-repo/musifly/releases/download/v1.0.0/musifly-arm32.apk"
+        "arm64": "https://devuploads.com/anr0f6z9dlau",
+        "arm32": "https://devuploads.com/9qcmp1t47hcp"
     },
     "stats": {
         "downloads": "1M+",
@@ -14,10 +14,10 @@
     },
     "social": {
         "twitter": "https://twitter.com/musifly",
-        "instagram": "https://instagram.com/musifly",
+        "instagram": "https://instagram.com/musifly.in",
         "facebook": "https://facebook.com/musifly",
-        "github": "https://github.com/your-repo/musifly",
-        "telegram": "https://t.me/your_telegram_channel"
+        "github": "https://t.me/sktech_000",
+        "telegram": "https://t.me/mussifly"
     },
     "footer": {
         "description": "The ultimate AI-powered music player for Android. Experience music like never before with advanced audio engineering and stunning design.",
