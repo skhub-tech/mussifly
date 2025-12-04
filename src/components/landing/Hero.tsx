@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-import { Download, Music, Smartphone, Zap } from "lucide-react";
+import { Download, Smartphone, Zap } from "lucide-react";
 import { useState } from "react";
 import strings from "@/config/strings.json";
 

@@ -8,7 +8,7 @@ import { query, QueryCtx } from "./_generated/server";
  */
 export const currentUser = query({
   args: {},
-  handler: async (ctx) => {
+  handler: async (ctx: QueryCtx) => {
     const user = await getCurrentUser(ctx);
 
     if (user === null) {
