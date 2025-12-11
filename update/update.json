@@ -2,10 +2,10 @@
   "latest_version_code": 123,
   "latest_version_name": "2.5.2",
 
-  "update_title": "New MusiFly Update!",
+  "update_title": "MussiFly Update!",
   "update_description": "Improved streaming, less lag, and UI fixes.",
   "download_url": "https://your-website.com/musifly-latest.apk",
-  "force_update": false,
+  "force_update": true,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
