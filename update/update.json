@@ -10,7 +10,7 @@
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
   "notification_message": "Tap to see what's new!",
-  "notification_link": "https://skmodsofficial.com",
+  "notification_link": "https://skmodsofficial.co",
 
   "notification_interval_days": 1,
   "max_notifications_per_day": 5,
