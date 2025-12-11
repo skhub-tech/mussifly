@@ -5,7 +5,7 @@
   "update_title": "Update!",
   "update_description": "Improved streaming, less lag, and UI fixes.",
   "download_url": "https://your-website.com/musifly-latest.apk",
-  "force_update": true,
+  "force_update": false,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
