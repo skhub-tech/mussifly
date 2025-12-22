@@ -4,7 +4,7 @@
 
   "update_title": "Update!",
   "update_description": "Improved streaming, less lag, and UI fixes.",
-  "download_url": "https://your-website.com/musifly-latest.apk",
+  "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
 
   "notification_enabled": true,
