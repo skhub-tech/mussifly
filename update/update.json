@@ -5,7 +5,7 @@
   "update_title": "Update!",
   "update_description": "Improved streaming, less lag, and UI fixes.",
   "download_url": "https://Mussifly.vercel.app",
-  "force_update": false,
+  "force_update": true,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
