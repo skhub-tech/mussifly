@@ -1,118 +1,92 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <!-- 🔤 Basic -->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- 🏷️ Title (SEO + CTR Optimized) -->
-  <title>Musifly 🎵 | Fast Music Streaming App | 32 and 64-bit APK Download</title>
+  <title>Mussifly 🎵 | Fast Music Streaming App | 32 and 64-bit APK Download</title>
 
-  <!-- 🔍 Meta Description -->
-  <meta
-    name="description"
-    content="Musifly is a modern music streaming app with cloud playlists, 3 powerful streaming engines, Spotify & Instagram-style UI players. Download latest 32-bit & 64-bit APK now."
-  />
+  <meta name="description" content="Mussifly is a modern music streaming app with cloud playlists, 3 powerful streaming engines, Spotify & Instagram-style UI players. Download latest 32-bit & 64-bit APK now." />
+  <meta name="author" content="Sahitya Kanojiya" />
 
-  <!-- 👤 Author -->
-  <meta name="author" content="Sahitya kanojiya" />
-
-  <!-- 🔗 Canonical -->
   <link rel="canonical" href="https://mussifly.vercel.app/" />
 
-  <!-- 🌐 Open Graph -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Musifly – Modern Music Streaming App" />
-  <meta property="og:description" content="Stream music fast with Musifly. Cloud playlists, 3 engines, clean UI inspired by Spotify & Instagram. Download APK now." />
+  <meta property="og:title" content="Mussifly – Modern Music Streaming App" />
+  <meta property="og:description" content="Stream music fast with Mussifly. Cloud playlists, 3 engines, clean UI inspired by Spotify & Instagram. Download APK now." />
   <meta property="og:image" content="https://mussifly.vercel.app/logo.png" />
   <meta property="og:url" content="https://mussifly.vercel.app/" />
-  <meta property="og:site_name" content="Musifly App" />
+  <meta property="og:site_name" content="Mussifly App" />
 
-  <!-- 🐦 Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Musifly – Fast & Modern Music App" />
-  <meta name="twitter:description" content="Cloud playlists, smooth UI, instant playback. Download Musifly APK (32/64-bit)." />
+  <meta name="twitter:title" content="Mussifly – Fast & Modern Music App" />
+  <meta name="twitter:description" content="Cloud playlists, smooth UI, instant playback. Download Mussifly APK (32/64-bit)." />
   <meta name="twitter:image" content="https://mussifly.vercel.app/logo.png" />
 
-  <!-- 📱 Icons -->
-  <!-- cache-busted favicon -->
-  
+  <link rel="icon" type="image/png" href="/favicon.png" sizes="48x48" />
+  <link rel="shortcut icon" href="/favicon.png" />
   <link rel="apple-touch-icon" href="/logo.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
-<link rel="icon" type="image/png" href="/favicon.png" sizes="48x48" />
-<link rel="shortcut icon" href="/favicon.png" />
-  <!-- ⚡ Performance -->
+
   <link rel="preload" as="image" href="/logo.png" />
 
-  <!-- 🔍 Google Search Console -->
   <meta name="google-site-verification" content="kZJ09YYPXnHNea3NU74pEQXgfojYgLqngZjLlsexnOA" />
 
-  <!-- 🧠 Structured Data: SoftwareApplication (existing, kept) -->
+  <!-- SoftwareApplication -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    "name": "Musifly",
-    "alternateName": "Musifly Music App",
+    "name": "Mussifly",
+    "alternateName": "Mussifly Music App",
     "operatingSystem": "Android",
     "applicationCategory": "MusicApplication",
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "INR"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Sahitya kanojiya"
-    },
-    "brand": {
-      "@type": "Brand",
-      "name": "Musifly"
-    },
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "INR" },
+    "publisher": { "@type": "Organization", "name": "Sahitya Kanojiya" },
+    "brand": { "@type": "Brand", "name": "Mussifly" },
     "url": "https://mussifly.vercel.app/",
     "image": "https://mussifly.vercel.app/logo.png"
   }
   </script>
 
-  <!-- 🧠 Structured Data: WebSite (NEW – fixes Google site name) -->
+  <!-- WebSite -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Mussifly",
-    "alternateName": "Musifly Music App",
+    "alternateName": "Mussifly Music App",
     "url": "https://mussifly.vercel.app/"
+  }
+  </script>
+
+  <!-- Person (Developer) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Sahitya Kanojiya",
+    "jobTitle": "Android App Developer",
+    "url": "https://mussifly.vercel.app/",
+    "worksFor": { "@type": "Organization", "name": "Mussifly" },
+    "sameAs": [
+      "https://www.instagram.com/sahitya_000/"
+    ]
   }
   </script>
 
 </head>
 
 <body>
-  <!-- 🔥 H1 (hidden but SEO valid) -->
-  <h1 style="position:absolute; left:-9999px;">
-    Musifly – Fast & Modern Music Streaming App
-  </h1>
+  <h1 style="position:absolute; left:-9999px;">Mussifly – Fast & Modern Music Streaming App</h1>
 
-  <!-- React Root -->
   <div id="root"></div>
 
-  <!-- Main App Script -->
   <script type="module" src="/src/main.tsx"></script>
 
-  <!-- 📢 Ads -->
   <script type="text/javascript">
-    var atOptions = {
-      'key' : 'cea7bbb9761a69268d4ee3f2f6c10691',
-      'format' : 'iframe',
-      'height' : 90,
-      'width' : 728,
-      'params' : {}
-    };
+    var atOptions = { 'key':'cea7bbb9761a69268d4ee3f2f6c10691','format':'iframe','height':90,'width':728,'params':{} };
   </script>
-  <script
-    type="text/javascript"
-    src="//proclaimsaneconviction.com/cea7bbb9761a69268d4ee3f2f6c10691/invoke.js"
-    async>
-  </script>
+  <script type="text/javascript" src="//proclaimsaneconviction.com/cea7bbb9761a69268d4ee3f2f6c10691/invoke.js" async></script>
 </body>
 </html>
