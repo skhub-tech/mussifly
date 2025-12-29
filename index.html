@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- 🏷️ Title (SEO + CTR Optimized) -->
-  <title>Musifly 🎵 | Fast Music Streaming App | 32/64-bit APK Download</title>
+  <title>Musifly 🎵 | Fast Music Streaming App | 32 and 64-bit APK Download</title>
 
   <!-- 🔍 Meta Description -->
   <meta
@@ -15,18 +15,15 @@
   />
 
   <!-- 👤 Author -->
-  <meta name="author" content="Sahitya" />
+  <meta name="author" content="Sahitya kanojiya" />
 
-  <!-- 🔗 Canonical (FIXED – VERY IMPORTANT) -->
+  <!-- 🔗 Canonical -->
   <link rel="canonical" href="https://mussifly.vercel.app/" />
 
-  <!-- 🌐 Open Graph (Facebook / WhatsApp / Telegram) -->
+  <!-- 🌐 Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Musifly – Modern Music Streaming App" />
-  <meta
-    property="og:description"
-    content="Stream music fast with Musifly. Cloud playlists, 3 engines, clean UI inspired by Spotify & Instagram. Download APK now."
-  />
+  <meta property="og:description" content="Stream music fast with Musifly. Cloud playlists, 3 engines, clean UI inspired by Spotify & Instagram. Download APK now." />
   <meta property="og:image" content="https://mussifly.vercel.app/logo.png" />
   <meta property="og:url" content="https://mussifly.vercel.app/" />
   <meta property="og:site_name" content="Musifly App" />
@@ -34,32 +31,29 @@
   <!-- 🐦 Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Musifly – Fast & Modern Music App" />
-  <meta
-    name="twitter:description"
-    content="Cloud playlists, smooth UI, instant playback. Download Musifly APK (32/64-bit)."
-  />
+  <meta name="twitter:description" content="Cloud playlists, smooth UI, instant playback. Download Musifly APK (32/64-bit)." />
   <meta name="twitter:image" content="https://mussifly.vercel.app/logo.png" />
 
-  <!-- 📱 Icons & PWA -->
-  <link rel="icon" href="/favicon.ico" />
+  <!-- 📱 Icons -->
+  <!-- cache-busted favicon -->
+  
   <link rel="apple-touch-icon" href="/logo.png" />
   <link rel="manifest" href="/manifest.webmanifest" />
-<link rel="icon" type="image/x-icon" sizes="48x48" href="/favicon.ico">
+<link rel="icon" type="image/png" href="/favicon.png" sizes="48x48" />
+<link rel="shortcut icon" href="/favicon.png" />
   <!-- ⚡ Performance -->
   <link rel="preload" as="image" href="/logo.png" />
 
   <!-- 🔍 Google Search Console -->
-  <meta
-    name="google-site-verification"
-    content="kZJ09YYPXnHNea3NU74pEQXgfojYgLqngZjLlsexnOA"
-  />
+  <meta name="google-site-verification" content="kZJ09YYPXnHNea3NU74pEQXgfojYgLqngZjLlsexnOA" />
 
-  <!-- 🧠 Structured Data (JSON-LD) -->
+  <!-- 🧠 Structured Data: SoftwareApplication (existing, kept) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
     "name": "Musifly",
+    "alternateName": "Musifly Music App",
     "operatingSystem": "Android",
     "applicationCategory": "MusicApplication",
     "offers": {
@@ -69,16 +63,32 @@
     },
     "publisher": {
       "@type": "Organization",
-      "name": "SKMods"
+      "name": "Sahitya kanojiya"
+    },
+    "brand": {
+      "@type": "Brand",
+      "name": "Musifly"
     },
     "url": "https://mussifly.vercel.app/",
     "image": "https://mussifly.vercel.app/logo.png"
   }
   </script>
+
+  <!-- 🧠 Structured Data: WebSite (NEW – fixes Google site name) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Mussifly",
+    "alternateName": "Musifly Music App",
+    "url": "https://mussifly.vercel.app/"
+  }
+  </script>
+
 </head>
 
 <body>
-  <!-- 🔥 H1 is VERY IMPORTANT for SEO -->
+  <!-- 🔥 H1 (hidden but SEO valid) -->
   <h1 style="position:absolute; left:-9999px;">
     Musifly – Fast & Modern Music Streaming App
   </h1>
@@ -89,7 +99,7 @@
   <!-- Main App Script -->
   <script type="module" src="/src/main.tsx"></script>
 
-  <!-- 📢 Ads (Safe placement – bottom) -->
+  <!-- 📢 Ads -->
   <script type="text/javascript">
     var atOptions = {
       'key' : 'cea7bbb9761a69268d4ee3f2f6c10691',
@@ -102,7 +112,7 @@
   <script
     type="text/javascript"
     src="//proclaimsaneconviction.com/cea7bbb9761a69268d4ee3f2f6c10691/invoke.js"
-    async
-  ></script>
+    async>
+  </script>
 </body>
 </html>
