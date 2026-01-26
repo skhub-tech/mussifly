@@ -1,15 +1,15 @@
 {
     "app": {
-        "name": "Mussifly V4.1",
+        "name": "Mussifly V4.2.0",
         "tagline": "Feel The Music, Beyond Limits."
     },
     "downloads": {
-        "arm64": "https://www.mediafire.com/file/dikybjdy4yourj6/MussiFly_v4.1_64bit+.apk/file",
-        "arm32": "https://www.mediafire.com/file/sutew48rqvx28hd/MussiFly_v4.1_32bit.apk/file"
+        "arm64": "https://www.mediafire.com/file/lr84kixvfdyz0yy/Musifly_4.2.0(64bit).apk/file",
+        "arm32": "https://www.mediafire.com/file/af359jl9kgy1e52/Musifly_4.2.0+(32bit).apk/file"
     },
     "stats": {
-        "downloads": "500+",
-        "rating": "4.9/5",
+        "downloads": "10+",
+        "rating": "4.8/5",
         "songs": "Unlimited"
     },
     "social": {
