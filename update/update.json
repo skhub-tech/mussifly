@@ -1,8 +1,8 @@
 {
-  "latest_version_code": 16,
-  "latest_version_name": "4.1",
+  "latest_version_code": 17,
+  "latest_version_name": "4.2.0",
 
-  "update_title": "New Update V4.1",
+  "update_title": "New Update V4.2.0",
   "update_description": "Added search shortcut in all players.\nEnhanced Sound Effects\nAdded short cut in all players now you can switch players click on three dots you will see option in grid menu.\nImproved streaming, less lag, and UI fixes.",
   "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
