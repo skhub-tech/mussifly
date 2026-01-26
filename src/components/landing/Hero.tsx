@@ -6,7 +6,7 @@ import strings from "@/config/strings.json";
 
 export function Hero() {
   const [showDownloadOptions, setShowDownloadOptions] = useState(false);
-  
+
   // Mouse parallax effect
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
@@ -29,21 +29,23 @@ export function Hero() {
   }, [mouseX, mouseY]);
 
   return (
-    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-24 pb-12 overflow-hidden px-4">
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-36 pb-12 overflow-hidden px-4">
+      {/* Safe Area for Ads - Subtle Gradient to hide ad injection gaps */}
+      <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-background to-transparent z-0 pointer-events-none opacity-50" />
       {/* Dynamic Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
-           style={{ x: shadowX, y: shadowY }}
-           className="absolute top-1/4 left-1/4 w-[20rem] h-[20rem] md:w-[40rem] md:h-[40rem] bg-primary/20 rounded-full blur-[80px] md:blur-[120px]"
+          style={{ x: shadowX, y: shadowY }}
+          className="absolute top-1/4 left-1/4 w-[20rem] h-[20rem] md:w-[40rem] md:h-[40rem] bg-primary/20 rounded-full blur-[80px] md:blur-[120px]"
         />
         <motion.div
           style={{ x: useTransform(shadowX, (v) => -v), y: useTransform(shadowY, (v) => -v) }}
           className="absolute bottom-1/4 right-1/4 w-[18rem] h-[18rem] md:w-[35rem] md:h-[35rem] bg-secondary/20 rounded-full blur-[80px] md:blur-[120px]"
         />
-        
+
         {/* Floating Icons for Dynamism */}
         <motion.div
-          animate={{ 
+          animate={{
             y: [0, -20, 0],
             rotate: [0, 10, 0]
           }}
@@ -53,7 +55,7 @@ export function Hero() {
           <Music2 size={48} className="text-primary" />
         </motion.div>
         <motion.div
-          animate={{ 
+          animate={{
             y: [0, 20, 0],
             rotate: [0, -10, 0]
           }}
@@ -95,7 +97,7 @@ export function Hero() {
           >
             {strings.app.name.split(' ')[0]}
           </motion.h1>
-          
+
           <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -169,9 +171,9 @@ export function Hero() {
           </motion.div>
         </motion.div>
       </div>
-      
+
       {/* Scroll Indicator */}
-      <motion.div 
+      <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.5 }}
         transition={{ delay: 2, duration: 1 }}
