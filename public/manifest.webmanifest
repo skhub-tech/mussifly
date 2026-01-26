@@ -1,17 +1,31 @@
 {
-  "name": "Mussifly",
+  "name": "Mussifly — Best Music App for Android",
   "short_name": "Mussifly",
-  "description": "Mussifly — Fast modern music streaming application for Android.",
+  "description": "Mussifly is the ultimate music player for Android with HD streaming, AI Bass Boost, and offline playback.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#000000",
+  "categories": [
+    "music",
+    "entertainment",
+    "utilities"
+  ],
+  "background_color": "#0a0a0a",
+  "theme_color": "#6366f1",
   "icons": [
     {
       "src": "/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-center.jpg",
+      "sizes": "1080x1920",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Music Player Home Screen"
     }
   ]
 }
