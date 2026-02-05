@@ -1,9 +1,9 @@
 {
-  "latest_version_code": 17,
-  "latest_version_name": "4.2.0",
+  "latest_version_code": 18,
+  "latest_version_name": "4.3.0",
 
-  "update_title": "New Update V4.2.0",
-  "update_description": "Added search shortcut in all players.\nEnhanced Sound Effects\nAdded short cut in all players now you can switch players click on three dots you will see option in grid menu.\nImproved streaming, less lag, and UI fixes.",
+  "update_title": "New Update V4.3.0",
+  "update_description": "🔹Enhanced Liquid Glass Theme visual improvements.\n🔹Added Mini Player height and corner radius controls\n🔹New Navigation Bar width customization slider\n🔹Fixed icon tinting issues in Settings\n🔹Refined styling for Dialogs and Audio Effects\n🔹General bug fixes and performance enhancements",
   "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
 
