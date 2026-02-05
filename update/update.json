@@ -5,7 +5,7 @@
   "update_title": "New Update V4.2.0",
   "update_description": "Added search shortcut in all players.\nEnhanced Sound Effects\nAdded short cut in all players now you can switch players click on three dots you will see option in grid menu.\nImproved streaming, less lag, and UI fixes.",
   "download_url": "https://Mussifly.vercel.app",
-  "force_update": true,
+  "force_update": false,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
