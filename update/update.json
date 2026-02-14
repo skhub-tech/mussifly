@@ -3,7 +3,7 @@
   "latest_version_name": "4.3.0",
 
   "update_title": "New Update V4.3.0",
-  "update_description": "✨ What’s New in This Update:\n🔹 Enhanced Liquid Glass Theme – visuals are now smoother and more premium\n🔹 Added height & corner radius controls for the Mini Player\n🔹 New Navigation Bar width customization slider\n🔹 Fixed icon tinting issues in Settings\n🔹 Refined styling for Dialogs & Audio Effects\n🔹 Overall bug fixes and performance improvements\n📲 Update now and feel the difference!\n💬 Feedback is always welcome ❤️",
+  "update_description": "✨ What’s New in This Update:\n🔹Removed Chat Screen for faster performance\n🔹Organized Search with Song/Album/ Artist tabs\n🔹Guest users can now login from Profile\n🔹Simpler Settings without bottom navigation\n🔹Fixed transparent toolbars & visual bugs\n🔹Grouped player controls in Liquid Theme\n🔹Fixed YouTube album crashes & local thumbnails\n🔹Resolved notification & account deletion issues",
   "download_url": "https://telegram.me/mussifly/81",
   "force_update": false,
 
