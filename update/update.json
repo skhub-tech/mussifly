@@ -5,7 +5,7 @@
   "update_title": "New Update V4.3.0",
   "update_description": "✨ What’s New in This Update:\n🔹Removed Chat Screen for faster performance\n🔹Organized Search with Song/Album/ Artist tabs\n🔹Guest users can now login from Profile\n🔹Simpler Settings without bottom navigation\n🔹Fixed transparent toolbars & visual bugs\n🔹Grouped player controls in Liquid Theme\n🔹Fixed YouTube album crashes & local thumbnails\n🔹Resolved notification & account deletion issues",
   "download_url": "https://telegram.me/mussifly/88",
-  "force_update": True,
+  "force_update": true,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
