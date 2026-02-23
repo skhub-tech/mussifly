@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.musifly.android",
+    "sha256_cert_fingerprints": [
+      "67:56:89:AF:72:98:74:21:67:BD:E2:2C:31:6C:06:DA:7A:52:A0:75:5E:C7:68:CA:BA:56:4C:DE:48:53:B6:95"
+    ]
+  }
+}]
