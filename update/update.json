@@ -5,7 +5,7 @@
   "update_title": "New Update V4.5.0",
   "update_description": "✨ New Features\n- Redesigned Home Feed with improved layout and better content organization\n- Added Country Selection to personalize the onboarding experience\n- Long press on user profile to preview profile picture\n- Added Account Switch option via long press on profile icon\n- Share profiles and songs directly via external messaging apps\n\n🔒 Privacy Improvements\n- Users can securely view profile pictures\n- Screenshot capture is restricted during profile preview to protect user privacy\n\n🎨 UI / UX Improvements\n- Improved visual hierarchy and spacing across the Home Feed\n- Added premium Liquid Header design to Settings toolbar\n- Refined Community playlist layout with direct play access\n- UI/UX enhancements across all navigation screens\n- Smoother navigation and interaction experience\n\n⚡ Performance & Optimization\n- Optimized Home Feed loading and playback transitions\n- Improved overall performance and responsiveness\n- Enhanced content rendering and loading efficiency\n\n🐞 Bug Fixes\n- Fixed Play button functionality for Community cards on Home screen\n- Resolved issue where cached music downloads could get stuck\n- Fixed missing metadata mapping during ExoPlayer background caching\n\n📌 Overall\nThis update focuses on improving navigation, personalization, performance, and overall user experience.",
   "download_url": "https://telegram.me/mussifly/95",
-  "force_update": true,
+  "force_update": false,
 
   "notification_enabled": true,
   "notification_title": "New Update / Sponsor Message",
