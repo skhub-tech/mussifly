@@ -17,7 +17,7 @@
      "button_text": "Learn More",
      "show_on_startup": true,
      
-     "cancelable": false,      // Set to false to hide the close button and force interaction
+     "cancelable": true,      // Set to false to hide the close button and force interaction
      "show_every_time": true   // Set to true to show this dialog on every app startup
   }
 }
