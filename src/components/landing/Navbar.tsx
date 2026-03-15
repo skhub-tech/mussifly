@@ -3,12 +3,11 @@ import { Download, Menu, X, Music2 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import strings from "@/config/strings.json";
-import { useNavigate, useLocation } from "react-router";
+import { Link, useLocation } from "react-router";
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-    const navigate = useNavigate();
     const location = useLocation();
     const isHomePage = location.pathname === "/";
 
@@ -26,21 +25,6 @@ export function Navbar() {
         { name: "FAQ", href: "#faq" },
     ];
 
-    const handleLogoClick = () => {
-        if (isHomePage) {
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        } else {
-            navigate("/");
-        }
-    };
-
-    const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
-        if (!isHomePage) {
-            e.preventDefault();
-            navigate("/" + href);
-        }
-    };
-
     return (
         <motion.nav
             initial={{ y: -100 }}
@@ -50,26 +34,29 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
-                <div className="flex items-center gap-2 group cursor-pointer" onClick={handleLogoClick}>
+                <Link 
+                    to="/" 
+                    onClick={() => isHomePage && window.scrollTo({ top: 0, behavior: "smooth" })}
+                    className="flex items-center gap-2 group cursor-pointer"
+                >
                     <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                         <Music2 className="text-white w-6 h-6" />
                     </div>
                     <span className="text-xl font-black tracking-tighter text-white">
                         {strings.app.name.split(' ')[0]}
                     </span>
-                </div>
+                </Link>
 
                 {/* Desktop Links */}
                 <div className="hidden md:flex items-center gap-8">
                     {navLinks.map((link) => (
-                        <a
+                        <Link
                             key={link.name}
-                            href={isHomePage ? link.href : "/" + link.href}
-                            onClick={(e) => handleNavLinkClick(e, link.href)}
+                            to={isHomePage ? link.href : "/" + link.href}
                             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-widest"
                         >
                             {link.name}
-                        </a>
+                        </Link>
                     ))}
                     <Button
                         size="sm"
@@ -78,7 +65,7 @@ export function Navbar() {
                             if (isHomePage) {
                                 document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' });
                             } else {
-                                navigate("/#screenshots");
+                                window.location.href = "/#screenshots";
                             }
                         }}
                     >
@@ -107,18 +94,20 @@ export function Navbar() {
                     >
                         <div className="container mx-auto px-6 py-8 flex flex-col gap-6">
                             {navLinks.map((link) => (
-                                <a
+                                <Link
                                     key={link.name}
-                                    href={isHomePage ? link.href : "/" + link.href}
+                                    to={isHomePage ? link.href : "/" + link.href}
                                     className="text-xl font-bold text-white hover:text-primary transition-colors"
-                                    onClick={(e) => {
-                                        setIsMobileMenuOpen(false);
-                                        handleNavLinkClick(e, link.href);
-                                    }}
+                                    onClick={() => setIsMobileMenuOpen(false)}
                                 >
                                     {link.name}
-                                </a>
+                                </Link>
                             ))}
+                            {/* Legal links in mobile menu for better discoverability */}
+                            <div className="pt-4 mt-4 border-t border-white/10 space-y-4">
+                                <Link to="/privacy" className="block text-lg text-muted-foreground hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Privacy Policy</Link>
+                                <Link to="/terms" className="block text-lg text-muted-foreground hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Terms of Service</Link>
+                            </div>
                             <Button
                                 className="w-full h-14 rounded-2xl bg-gradient-to-r from-primary to-secondary text-lg font-bold"
                                 onClick={() => {

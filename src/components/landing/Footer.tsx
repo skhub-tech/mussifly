@@ -1,8 +1,12 @@
 import { motion } from "framer-motion";
 import { Facebook, Github, Instagram, Twitter } from "lucide-react";
 import strings from "@/config/strings.json";
+import { Link, useLocation } from "react-router";
 
 export function Footer() {
+  const location = useLocation();
+  const isHomePage = location.pathname === "/";
+
   return (
     <motion.footer
       initial={{ opacity: 0 }}
@@ -28,20 +32,20 @@ export function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-white">Product</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href={strings.footer.menus.product.features} className="hover:text-primary transition-colors">Features</a></li>
-              <li><a href={strings.footer.menus.product.download} className="hover:text-primary transition-colors">Download</a></li>
-              <li><a href={strings.footer.menus.product.premium} className="hover:text-primary transition-colors">Premium</a></li>
-              <li><a href={strings.footer.menus.product.changelog} className="hover:text-primary transition-colors">Changelog</a></li>
+              <li><Link to={isHomePage ? "#features" : "/#features"} className="hover:text-primary transition-colors">Features</Link></li>
+              <li><Link to={isHomePage ? "#download" : "/#download"} className="hover:text-primary transition-colors">Download</Link></li>
+              <li><Link to={isHomePage ? "#premium" : "/#premium"} className="hover:text-primary transition-colors">Premium</Link></li>
+              <li><Link to={isHomePage ? "#changelog" : "/#changelog"} className="hover:text-primary transition-colors">Changelog</Link></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-bold mb-4 text-white">Legal</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li><a href={strings.footer.menus.legal.privacy} className="hover:text-primary transition-colors">Privacy Policy</a></li>
-              <li><a href={strings.footer.menus.legal.terms} className="hover:text-primary transition-colors">Terms of Service</a></li>
-              <li><a href={strings.footer.menus.legal.cookies} className="hover:text-primary transition-colors">Cookie Policy</a></li>
-              <li><a href={strings.footer.menus.legal.contact} className="hover:text-primary transition-colors">Contact</a></li>
+              <li><Link to="/privacy" className="hover:text-primary transition-colors">Privacy Policy</Link></li>
+              <li><Link to="/terms" className="hover:text-primary transition-colors">Terms of Service</Link></li>
+              <li><Link to="/cookies" className="hover:text-primary transition-colors">Cookie Policy</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-colors">Contact</Link></li>
             </ul>
           </div>
         </div>
@@ -61,3 +65,4 @@ export function Footer() {
     </motion.footer>
   );
 }
+

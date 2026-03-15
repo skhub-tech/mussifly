@@ -3,6 +3,7 @@ import { Footer } from "@/components/landing/Footer";
 import { motion } from "framer-motion";
 import strings from "@/config/strings.json";
 import { useEffect } from "react";
+import { Link } from "react-router";
 
 export default function Terms() {
     useEffect(() => {
@@ -103,17 +104,17 @@ export default function Terms() {
                                 If you have any questions about these Terms, please contact us.
                             </p>
                             <div className="flex flex-col md:flex-row gap-4">
+                                <Link 
+                                    to="/"
+                                    className="px-8 py-4 bg-white/5 text-white rounded-2xl font-bold text-center border border-white/10 hover:bg-white/10 transition-all"
+                                >
+                                    ← Back to Home
+                                </Link>
                                 <a 
                                     href={strings.social.telegram}
                                     className="px-8 py-4 bg-secondary text-white rounded-2xl font-bold text-center hover:scale-105 transition-transform shadow-lg shadow-secondary/20"
                                 >
                                     Telegram Community
-                                </a>
-                                <a 
-                                    href={`mailto:legal@mussifly.in`}
-                                    className="px-8 py-4 bg-white/10 text-white rounded-2xl font-bold text-center border border-white/10 hover:bg-white/20 transition-all"
-                                >
-                                    Contact Legal
                                 </a>
                             </div>
                         </div>
