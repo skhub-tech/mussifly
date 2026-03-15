@@ -3,10 +3,14 @@ import { Download, Menu, X, Music2 } from "lucide-react";
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import strings from "@/config/strings.json";
+import { useNavigate, useLocation } from "react-router";
 
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const navigate = useNavigate();
+    const location = useLocation();
+    const isHomePage = location.pathname === "/";
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,6 +26,21 @@ export function Navbar() {
         { name: "FAQ", href: "#faq" },
     ];
 
+    const handleLogoClick = () => {
+        if (isHomePage) {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+        } else {
+            navigate("/");
+        }
+    };
+
+    const handleNavLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+        if (!isHomePage) {
+            e.preventDefault();
+            navigate("/" + href);
+        }
+    };
+
     return (
         <motion.nav
             initial={{ y: -100 }}
@@ -31,7 +50,7 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
-                <div className="flex items-center gap-2 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+                <div className="flex items-center gap-2 group cursor-pointer" onClick={handleLogoClick}>
                     <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
                         <Music2 className="text-white w-6 h-6" />
                     </div>
@@ -45,7 +64,8 @@ export function Navbar() {
                     {navLinks.map((link) => (
                         <a
                             key={link.name}
-                            href={link.href}
+                            href={isHomePage ? link.href : "/" + link.href}
+                            onClick={(e) => handleNavLinkClick(e, link.href)}
                             className="text-sm font-medium text-muted-foreground hover:text-primary transition-colors uppercase tracking-widest"
                         >
                             {link.name}
@@ -54,7 +74,13 @@ export function Navbar() {
                     <Button
                         size="sm"
                         className="rounded-full bg-primary/20 text-primary border border-primary/20 hover:bg-primary hover:text-white transition-all px-6"
-                        onClick={() => document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' })}
+                        onClick={() => {
+                            if (isHomePage) {
+                                document.getElementById('screenshots')?.scrollIntoView({ behavior: 'smooth' });
+                            } else {
+                                navigate("/#screenshots");
+                            }
+                        }}
                     >
                         <Download className="w-4 h-4 mr-2" />
                         Get App
@@ -83,9 +109,12 @@ export function Navbar() {
                             {navLinks.map((link) => (
                                 <a
                                     key={link.name}
-                                    href={link.href}
+                                    href={isHomePage ? link.href : "/" + link.href}
                                     className="text-xl font-bold text-white hover:text-primary transition-colors"
-                                    onClick={() => setIsMobileMenuOpen(false)}
+                                    onClick={(e) => {
+                                        setIsMobileMenuOpen(false);
+                                        handleNavLinkClick(e, link.href);
+                                    }}
                                 >
                                     {link.name}
                                 </a>

@@ -29,8 +29,8 @@
                 "changelog": "#changelog"
             },
             "legal": {
-                "privacy": "#privacy",
-                "terms": "#terms",
+                "privacy": "/privacy",
+                "terms": "/terms",
                 "cookies": "#cookies",
                 "contact": "#contact"
             }
