@@ -15,6 +15,8 @@ const AuthPage = lazy(() => import("./pages/Auth.tsx"));
 const NotFound = lazy(() => import("./pages/NotFound.tsx"));
 const Privacy = lazy(() => import("./pages/Privacy.tsx"));
 const Terms = lazy(() => import("./pages/Terms.tsx"));
+const DeleteAccount = lazy(() => import("./pages/DeleteAccount.tsx"));
+
 
 
 // Simple loading fallback for route transitions
@@ -67,6 +69,8 @@ createRoot(document.getElementById("root")!).render(
               <Route path="/auth" element={<AuthPage redirectAfterAuth="/" />} /> {/* TODO: change redirect after auth to correct page */}
               <Route path="/privacy" element={<Privacy />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/delete-account" element={<DeleteAccount />} />
+
 
               <Route path="*" element={<NotFound />} />
             </Routes>

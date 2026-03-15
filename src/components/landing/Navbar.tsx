@@ -107,6 +107,7 @@ export function Navbar() {
                             <div className="pt-4 mt-4 border-t border-white/10 space-y-4">
                                 <Link to="/privacy" className="block text-lg text-muted-foreground hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Privacy Policy</Link>
                                 <Link to="/terms" className="block text-lg text-muted-foreground hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Terms of Service</Link>
+                                <Link to="/delete-account" className="block text-lg text-muted-foreground hover:text-white" onClick={() => setIsMobileMenuOpen(false)}>Delete Account</Link>
                             </div>
                             <Button
                                 className="w-full h-14 rounded-2xl bg-gradient-to-r from-primary to-secondary text-lg font-bold"
