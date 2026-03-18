@@ -9,7 +9,7 @@
   "promo": {
     "enabled": true,
     "title": "Must subscribe!",
-    "description": "subscribe our telegram channel for latest announcement or updates",
+    "description": "subscribe our telegram channel for latest announcement or updates\n this message will appear only for 24 hours keep supporting developer",
     "video_url": "",
     "image_url": "",
     "redirect_url": "https://t.me/mussifly",
