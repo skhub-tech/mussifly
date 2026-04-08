@@ -1,8 +1,29 @@
 [
   {
-    "name": "Supporter Name",
-    "url": "https://youtube.com/...",
+    "name": "Supporter 1 (YouTube)",
+    "url": "https://youtube.com/@cchannel_handle",
     "is_youtube": true,   
+    "is_instagram": false, 
+    "is_telegram": false   
+  },
+  {
+    "name": "Supporter 2 (Instagram)",
+    "url": "https://instagram.com/username",
+    "is_youtube": false,   
+    "is_instagram": true, 
+    "is_telegram": false   
+  },
+  {
+    "name": "Supporter 3 (Telegram)",
+    "url": "https://t.me/username",
+    "is_youtube": false,   
+    "is_instagram": false, 
+    "is_telegram": true   
+  },
+  {
+    "name": "Supporter 4 (Generic)",
+    "url": "https://github.com/username",
+    "is_youtube": false,   
     "is_instagram": false, 
     "is_telegram": false   
   }
