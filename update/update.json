@@ -3,7 +3,14 @@
   "latest_version_name": "4.8.0",
   "is_direct_apk": false,
   "update_title": "New Update V4.8.0",
-  "update_description": "✨ New Features\n- Fixed Crashing when user clicking on playlists..\n- Added Country Selection to personalize the onboarding experience\n- Long press on user profile to preview profile picture\n- Added Account Switch option via long press on profile icon\n- Share profiles and songs directly via external messaging apps\n\n🔒 Privacy Improvements\n- Users can securely view profile pictures\n- Screenshot capture is restricted during profile preview to protect user privacy\n\n🎨 UI / UX Improvements\n- Improved visual hierarchy and spacing across the Home Feed\n- Added premium Liquid Header design to Settings toolbar\n- Refined Community playlist layout with direct play access\n- UI/UX enhancements across all navigation screens\n- Smoother navigation and interaction experience\n\n⚡ Performance & Optimization\n- Optimized Home Feed loading and playback transitions\n- Improved overall performance and responsiveness\n- Enhanced content rendering and loading efficiency\n\n🐞 Bug Fixes\n- Fixed Play button functionality for Community cards on Home screen\n- Resolved issue where cached music downloads could get stuck\n- Fixed missing metadata mapping during ExoPlayer background caching\n\n📌 Overall\nThis update focuses on improving navigation, personalization, performance, and overall user experience.",
+  "update_description": "✨ New Features\n- In-App Updates: Easier way to keep your app up to date with the latest features\nGeneral bug fixes and stability improvements for a seamless experience\n
+Mussifly Player V2 Swipe: Swipe thumbnails to change songs (swipe left for next, right for previous)\n
+Premium Swipe Animations: Smooth rotation and scaling effects for an immersive experience\nSmarter Data Sync: Your library now syncs faster and uses much less internet\n
+Fixed Autoplay: No more random pauses when opening the app\n
+Snappier Profiles: Your profile and stats now load faster with better caching\n
+Improved Navigation: Fine-tuned the bottom bar for a smoother, premium feel\n
+Better Background Sync: Your songs and playlists stay updated automatically\n
+Reliable Bulk Likes: Syncing large number of liked songs is now more robust\n",
   "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
   "promo": {
