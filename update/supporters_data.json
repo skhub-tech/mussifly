@@ -2,8 +2,8 @@
   {
     "name": "Supporter Name",
     "url": "https://youtube.com/...",
-    "is_youtube": true,   // YouTube icon dikhane ke liye
-    "is_instagram": false, // Instagram icon dikhane ke liye
-    "is_telegram": false   // Telegram icon dikhane ke liye
+    "is_youtube": true,   
+    "is_instagram": false, 
+    "is_telegram": false   
   }
 ]
