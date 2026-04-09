@@ -5,7 +5,7 @@
   "update_title": "New Update V4.8.0",
   "update_description": "✨ New Features\n- In-App Updates: Easier way to keep your app up to date with the latest features 🔄\nGeneral bug fixes and stability improvements for a seamless experience 🛠️\nMussifly Player V2 Swipe: Swipe thumbnails to change songs (swipe left for next, right for previous) 👉\nPremium Swipe Animations: Smooth rotation and scaling effects for an immersive experience 🎞️\nSmarter Data Sync: Your library now syncs faster and uses much less internet ⚡\nFixed Autoplay: No more random pauses when opening the app ▶️\nSnappier Profiles: Your profile and stats now load faster with better caching 🚀\nImproved Navigation: Fine-tuned the bottom bar for a smoother, premium feel 🧭\nBetter Background Sync: Your songs and playlists stay updated automatically 🔁\nReliable Bulk Likes: Syncing large number of liked songs is now more robust ❤️\n",
   "download_url": "https://Mussifly.vercel.app",
-  "force_update": false,
+  "force_update": true,
   "promo": {
     "enabled": false,
     "title": "Must subscribe!",
