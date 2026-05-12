@@ -2,7 +2,7 @@
   "latest_version_code": 28,
   "latest_version_name": "4.9.4",
   "is_direct_apk": false,
-  "update_title": "New Update V4.9.3",
+  "update_title": "New Update V4.9.4",
   "update_description": "✨ New Features\nMust Uninstall old apk otherwise you will getting crash problem\nBEFORE INSTALLING THIS NEW uPDATE PLAE MAKE BACKUP OF APP DATA BY USING SETTINGS\N* New Login Options: Sign in with YouTube Music and Spotify for seamless cloud sync 🔐\n* Unified Music Integration: YouTube Music and Mussifly now work together for a smoother library experience 🎶\n* Smarter Cloud Sync: Syncing is now faster, cleaner, and more reliable than ever ☁️⚡\n* Logged-in Sync Only: Cloud features are now secured and available only for logged-in users 🔒\n* Faster Streaming: Optimized audio stream selection for quicker buffering and playback ▶️\n* Cleaner System Upgrade: Removed legacy Supabase sync for better performance and stability 🧹\n* Improved App Performance: General optimizations for smoother scrolling and faster response 🚀\n* Better Background Processing: Sync and playback continue more reliably in the background 🔁\n* Enhanced Stability: Reduced crashes and improved overall app reliability 🛠️\n* UI Refinements: Small visual tweaks for a more polished and premium feel 🎨",
   "download_url": "https://Mussifly.vercel.app",
   "force_update": true,
