@@ -28,12 +28,13 @@ export function Screenshots() {
           <motion.div
             initial={{ opacity: 0, x: -100, rotate: -25, scale: 0.8 }}
             whileInView={{ opacity: 1, x: 0, rotate: -15, scale: 0.9 }}
-            transition={{ duration: 0.8, delay: 0.2, type: "spring" }}
             viewport={{ once: true }}
             whileHover={{ scale: 0.95, rotate: -10, zIndex: 30 }}
             animate={{ y: [0, -15, 0] }}
-            // @ts-ignore
             transition={{
+              duration: 0.8,
+              delay: 0.2,
+              type: "spring",
               y: { duration: 5, repeat: Infinity, ease: "easeInOut" }
             }}
             className="absolute left-[5%] sm:left-[10%] md:left-0 z-10 w-[200px] sm:w-[260px] md:w-[320px] aspect-[9/19] bg-black rounded-[2.5rem] border-4 md:border-8 border-gray-900 shadow-2xl overflow-hidden glass-panel origin-bottom"
@@ -56,12 +57,13 @@ export function Screenshots() {
           <motion.div
             initial={{ opacity: 0, y: 100, scale: 0.9 }}
             whileInView={{ opacity: 1, y: 0, scale: 1 }}
-            transition={{ duration: 0.8, type: "spring", bounce: 0.4 }}
             viewport={{ once: true }}
             whileHover={{ scale: 1.02 }}
             animate={{ y: [0, -25, 0] }}
-            // @ts-ignore
             transition={{
+              duration: 0.8,
+              type: "spring",
+              bounce: 0.4,
               y: { duration: 4, repeat: Infinity, ease: "easeInOut", delay: 0.5 }
             }}
             className="relative z-20 w-[240px] sm:w-[300px] md:w-[380px] aspect-[9/19] bg-black rounded-[3rem] border-6 md:border-[10px] border-white/10 shadow-[0_0_50px_rgba(0,0,0,0.5)] overflow-hidden ring-1 ring-white/20"
@@ -92,12 +94,13 @@ export function Screenshots() {
           <motion.div
             initial={{ opacity: 0, x: 100, rotate: 25, scale: 0.8 }}
             whileInView={{ opacity: 1, x: 0, rotate: 15, scale: 0.9 }}
-            transition={{ duration: 0.8, delay: 0.2, type: "spring" }}
             viewport={{ once: true }}
             whileHover={{ scale: 0.95, rotate: 10, zIndex: 30 }}
             animate={{ y: [0, -15, 0] }}
-            // @ts-ignore
             transition={{
+              duration: 0.8,
+              delay: 0.2,
+              type: "spring",
               y: { duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1 }
             }}
             className="absolute right-[5%] sm:right-[10%] md:right-0 z-10 w-[200px] sm:w-[260px] md:w-[320px] aspect-[9/19] bg-black rounded-[2.5rem] border-4 md:border-8 border-gray-900 shadow-2xl overflow-hidden glass-panel origin-bottom"

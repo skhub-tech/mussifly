@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Github, Instagram, User, ArrowUpRight } from "lucide-react";
-import strings from "@/config/strings.json";
 
 export function Developer() {
   const skills = [
