@@ -117,7 +117,7 @@ export function Developer() {
                   <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
                 </a>
                 <a
-                  href={strings.social.instagram}
+                  href="https://instagram.com/sahitya_000/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 inline-flex items-center justify-center gap-2 px-6 h-12 rounded-2xl bg-white/5 hover:bg-white/10 active:scale-95 border border-white/10 hover:border-white/20 text-white font-semibold transition-all text-sm"
