@@ -34,8 +34,8 @@ export function Navbar() {
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
                 {/* Logo */}
-                <Link 
-                    to="/" 
+                <Link
+                    to="/"
                     onClick={() => isHomePage && window.scrollTo({ top: 0, behavior: "smooth" })}
                     className="flex items-center gap-2 group cursor-pointer"
                 >

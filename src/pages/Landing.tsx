@@ -5,6 +5,7 @@ import { Footer } from "@/components/landing/Footer";
 import { Hero } from "@/components/landing/Hero";
 import { Screenshots } from "@/components/landing/Screenshots";
 import { Navbar } from "@/components/landing/Navbar";
+import { Developer } from "@/components/landing/Developer";
 
 export default function Landing() {
   return (
@@ -14,6 +15,7 @@ export default function Landing() {
       <Features />
       <Screenshots />
       <Description />
+      <Developer />
       <div id="faq">
         <FAQ />
       </div>

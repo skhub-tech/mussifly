@@ -15,6 +15,10 @@ const faqs = [
     answer: "Yes! Musifly offers a robust free version with all essential features. We also offer a Premium tier for ad-free listening and exclusive themes.",
   },
   {
+    question: "Who is the developer of Mussifly?",
+    answer: "The developer of Mussifly is Sahitya Kanojiya. He is the founder, creator, and lead developer of the Mussifly music app. You can follow his official projects and source code on GitHub at https://github.com/skhub-tech.",
+  },
+  {
     question: "Does it support offline playback?",
     answer: "Absolutely. You can download your favorite songs and playlists for offline listening, perfect for when you're on the go without data.",
   },

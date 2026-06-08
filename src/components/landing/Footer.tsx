@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Facebook, Github, Instagram, Twitter } from "lucide-react";
+import { Github, Instagram } from "lucide-react";
 import strings from "@/config/strings.json";
 import { Link, useLocation } from "react-router";
 
@@ -57,9 +57,7 @@ export function Footer() {
             Â© 2025 {strings.app.name}. All rights reserved.
           </p>
           <div className="flex gap-4">
-            <a href={strings.social.twitter} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors"><Twitter className="w-5 h-5" /></a>
             <a href={strings.social.instagram} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors"><Instagram className="w-5 h-5" /></a>
-            <a href={strings.social.facebook} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors"><Facebook className="w-5 h-5" /></a>
             <a href={strings.social.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-white transition-colors"><Github className="w-5 h-5" /></a>
           </div>
         </div>
