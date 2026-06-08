@@ -29,7 +29,7 @@ export function Hero() {
   }, [mouseX, mouseY]);
 
   return (
-    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-36 pb-12 overflow-hidden px-4">
+    <section className="relative min-h-[100svh] flex flex-col items-center justify-center pt-24 md:pt-36 pb-20 md:pb-12 overflow-hidden px-4">
       {/* Safe Area for Ads - Subtle Gradient to hide ad injection gaps */}
       <div className="absolute top-0 left-0 right-0 h-24 bg-gradient-to-b from-background to-transparent z-0 pointer-events-none opacity-50" />
       {/* Dynamic Background Elements */}
@@ -156,7 +156,7 @@ export function Hero() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 0.8 }}
-            className="mt-20 grid grid-cols-2 md:grid-cols-3 gap-8 md:gap-24 text-center border-t border-white/5 pt-10"
+            className="mt-12 md:mt-20 grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-24 text-center border-t border-white/5 pt-8 md:pt-10"
           >
             {[
               { label: "Downloads", value: strings.stats.downloads },
@@ -177,7 +177,7 @@ export function Hero() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.5 }}
         transition={{ delay: 2, duration: 1 }}
-        className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"
+        className="absolute bottom-6 left-1/2 -translate-x-1/2 hidden md:flex flex-col items-center gap-2"
       >
         <span className="text-[10px] uppercase tracking-[0.3em] font-medium">Scroll to explore</span>
         <div className="w-[1px] h-12 bg-gradient-to-b from-primary to-transparent" />
