@@ -5,7 +5,7 @@
   "update_title": "New Update V4.9.4",
     "update_description": "✨ Clean Settings & Immersive Lyrics\n\n* Liquid Glass theme is now fully stable and polished ✨\n* Added Liquid Glass customization options for a more personalized experience 🎨\n* Introduced Apple Music–style bottom navigation bar and mini player collapse behavior 🍎🎵\n* Added a setting to auto-hide playback controls and song details on the lyrics screen for a true fullscreen experience 📖🖥️\n* Tapping anywhere on the fullscreen lyrics screen now instantly reveals player controls 👆\n* Cleaned up the Settings menu by removing duplicate Liquid Glass options and app icon customization entries 🧹\n* Replaced dynamic theme generation with optimized static themes for better consistency and performance ⚡\n* Updated the Settings screen icon and fixed multiple background player issues 🛠️\n* General bug fixes, stability improvements, and UI refinements 🚀",
   "download_url": "https://Mussifly.vercel.app",
-  "force_update": true,
+  "force_update": false,
   "promo": {
     "enabled": false,
     "title": "Must subscribe!",
