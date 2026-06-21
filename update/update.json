@@ -9,7 +9,7 @@
   "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
   "promo": {
-    "enabled": false,
+    "enabled": true,
     "title": "Must subscribe!",
     "description": "subscribe our telegram channel for latest announcement or updates 📢\nthis message will appear only for 24 hours keep supporting developer ❤️",
     "video_url": "",
