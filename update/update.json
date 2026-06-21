@@ -1,9 +1,11 @@
 {
-  "latest_version_code": 30,
-  "latest_version_name": "4.9.6",
+  "latest_version_code": 31,
+  "latest_version_name": "4.9.7",
   "is_direct_apk": false,
-  "update_title": "New Update V4.9.6",
-    "update_description": "✨ Clean Settings & Immersive Lyrics\n\n* Liquid Glass theme is now fully stable and polished ✨\n* Added Liquid Glass customization options for a more personalized experience 🎨\n* Introduced Apple Music–style bottom navigation bar and mini player collapse behavior 🍎🎵\n* Added a setting to auto-hide playback controls and song details on the lyrics screen for a true fullscreen experience 📖🖥️\n* Tapping anywhere on the fullscreen lyrics screen now instantly reveals player controls 👆\n* Cleaned up the Settings menu by removing duplicate Liquid Glass options and app icon customization entries 🧹\n* Replaced dynamic theme generation with optimized static themes for better consistency and performance ⚡\n* Updated the Settings screen icon and fixed multiple background player issues 🛠️\n* General bug fixes, stability improvements, and UI refinements 🚀",
+  "update_title": "New Update V4.9.7",
+    
+  "update_description": "✨ Performance & Playback Improvements\n\n* Fixed bulk download issues for a smoother downloading experience 📥\n* Added support for both music and video playback in the player 🎵🎬\n* Enhanced the Home screen header with a cleaner and more polished design 🏠✨\n* Fixed playback errors affecting some songs and videos ▶️🛠️\n* Fixed Backup & Restore functionality for more reliable data recovery 💾🔄\n* Improved player stability and overall app performance ⚡\n* General bug fixes, UI refinements, and stability improvements 🚀"
+,
   "download_url": "https://Mussifly.vercel.app",
   "force_update": false,
   "promo": {
