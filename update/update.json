@@ -7,9 +7,9 @@
   "update_description": "✨ Performance & Playback Improvements\n\n* Fixed bulk download issues for a smoother downloading experience 📥\n* Added support for both music and video playback in the player 🎵🎬\n* Enhanced the Home screen header with a cleaner and more polished design 🏠✨\n* Fixed playback errors affecting some songs and videos ▶️🛠️\n* Fixed Backup & Restore functionality for more reliable data recovery 💾🔄\n* Improved player stability and overall app performance ⚡\n* General bug fixes, UI refinements, and stability improvements 🚀"
 ,
   "download_url": "https://Mussifly.vercel.app",
-  "force_update": false,
+  "force_update": true,
   "promo": {
-    "enabled": true,
+    "enabled": false,
     "title": "Must subscribe!",
     "description": "subscribe our telegram channel for latest announcement or updates 📢\nthis message will appear only for 24 hours keep supporting developer ❤️",
     "video_url": "",
