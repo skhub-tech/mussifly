@@ -1,11 +1,9 @@
 {
-  "latest_version_code": 31,
-  "latest_version_name": "4.9.7",
+  "latest_version_code": 32,
+  "latest_version_name": "4.9.8",
   "is_direct_apk": false,
-  "update_title": "New Update V4.9.7",
-    
-  "update_description": "✨ Performance & Playback Improvements\n\n* Fixed bulk download issues for a smoother downloading experience 📥\n* Added support for both music and video playback in the player 🎵🎬\n* Enhanced the Home screen header with a cleaner and more polished design 🏠✨\n* Fixed playback errors affecting some songs and videos ▶️🛠️\n* Fixed Backup & Restore functionality for more reliable data recovery 💾🔄\n* Improved player stability and overall app performance ⚡\n* General bug fixes, UI refinements, and stability improvements 🚀"
-,
+  "update_title": "New Update V4.9.8",
+  "update_description": "⚡ Instant Playback & Video Player Fixes\n\n* Instant Music Playback: Songs now play instantly with zero delay when you tap them 🎵⚡\n* Look-Ahead Pre-buffering: Background caching prepares upcoming songs for smooth, gapless playback ⏩🎧\n* Fast First Song Launch: Top search results, album tracks, and playlist songs start playing immediately 🚀▶️\n* Video Progress Bar Fix: Progress bar and seek time are now always visible during video playback in Echo Player 📺⏳\n* Clean Video Screen: Removed top overlay bars (settings icon) for an uninterrupted video viewing experience 🎬✨\n* General stability improvements and faster performance ⚡🛠️",
   "download_url": "https://Mussifly.vercel.app",
   "force_update": true,
   "promo": {
