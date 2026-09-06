@@ -4,9 +4,9 @@
   "is_direct_apk": false,
 
   "update_title": "New Update V5.0.1",
-  "update_description": "⚡ A Fresh New Experience\n\n* 🫧 Colloidal Bounce Animation: Search button now delivers a fluid, colloidal jelly collision and bounce animation on scroll expand in Liquid Glass theme.\n* 📜 Scroll Collapse Polish: Liquid bottom navigation bar smoothly collapses on scroll and springs back with tactile haptics, even when no music is playing.\n* 🎤 Lyrics Auto-Hide Controls: Option to manually toggle or auto-hide player controls after 4 seconds of inactivity for a clean fullscreen lyrics experience.\n* 🎵 Full Spotify Parity: Completely modernized Spotify integration aligned with the latest engine for reliable search, playlists, and recommendations.\n* 🎬 Reels & Gestures: Ultra-smooth song switching, responsive mini player transitions, and refined visual aesthetics.\n* ⚡ Engine Performance: Zero-delay instant playback pre-buffering, battery optimization, and stability fixes.",
+  "update_description": "⚡ A Fresh New Experience\n\n* 🫧 Colloidal Bounce Animation: Search button now delivers a fluid, colloidal jelly collision and bounce animation on scroll expand in Liquid UI\n* 🎨 UI/UX Improvements: Enhanced visual design and smoother animations\n* 🔧 Performance Optimization: Faster loading times and reduced memory usage\n* 🛡️ Security Updates: Enhanced security features and bug fixes",
 
-  "download_url": "https://Mussifly.vercel.app",
+  "download_url": "https://tunefly.vercel.app",
   "force_update": true,
   "promo": {
     "enabled": false,
@@ -14,7 +14,7 @@
     "description": "subscribe our telegram channel for latest announcement or updates 📢\nthis message will appear only for 24 hours keep supporting developer ❤️",
     "video_url": "",
     "image_url": "",
-    "redirect_url": "https://t.me/mussifly",
+    "redirect_url": "https://t.me/tunefly",
     "button_text": "Subscribe now",
     "show_on_startup": true,
     "cancelable": true,

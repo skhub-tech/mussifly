@@ -9,4 +9,4 @@ Disallow: /temp/
 Disallow: /api/
 
 # Sitemap so Google can crawl fast
-Sitemap: https://mussifly.vercel.app/sitemap.xml
+Sitemap: https://tunefly.vercel.app/sitemap.xml
